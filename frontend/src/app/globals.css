@@ -117,5 +117,10 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Matter',sans-serif;
   }
+}
+
+body{
+  font-family: 'Matter',sans-serif;
 }

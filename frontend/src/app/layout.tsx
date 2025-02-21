@@ -1,6 +1,6 @@
 import type { Metadata } from "next"; 
 import "./globals.css";
-
+import './font.css'
 import { AuthProvider } from '@/context/AuthContext';
 
 import ChatlingWidget from "@/components/ui/chatlingWidget"
