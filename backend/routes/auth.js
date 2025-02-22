@@ -10,7 +10,7 @@ const authMiddleware = require('../middleware/auth')
 // Register
 router.post('/register', async (req, res) => {
   try {
-    const { username, email, password } = req.body;
+    const { username, email, password, verificationDocLink  } = req.body;
 
     const existingUser = await User.findOne({ email });
     if (existingUser) {
@@ -18,7 +18,7 @@ router.post('/register', async (req, res) => {
     }
 
 
-    const user = new User({ username, email, password });
+    const user = new User({ username, email, password, verificationDocLink  });
     await user.save();
     const token = generateToken(user._id);
 

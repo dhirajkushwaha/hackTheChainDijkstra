@@ -7,7 +7,7 @@ import Footer from '@/components/ui/custom/footer';
 function page() {
   return (
     <div>
-        <Header></Header>
+        {/* <Header></Header> */}
         <div className="card-grid p-10 flex gap-4 justify-center flex-wrap">
             <div className="card card1  bg-white h-[14.5rem] md:h-[15rem] w-[500px] rounded-2xl border-2 border-[#FFD2EA] p-5 flex flex-row gap-5">
                 <div className="left md:h-11 md:w-11 h-7 w-7 md:border-2 border-gray-300 md:p-1 rounded-full">
@@ -81,8 +81,7 @@ function page() {
                     </div>
                 </div>
             </div>
-        </div>
-        <Footer/>
+        </div> 
     </div>
   )
 }

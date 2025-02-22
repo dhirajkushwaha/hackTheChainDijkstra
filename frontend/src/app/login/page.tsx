@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'; // Add useEffect
 import { useRouter } from 'next/navigation';
 import { Input } from "@/components/ui/input"
 import { Button } from '@/components/ui/button';
-
+import Cursor from '@/components/ui/'
 import Link from 'next/link';
 
 import Header from '@/components/ui/custom/Header';
@@ -62,7 +62,7 @@ export default function LoginPage() {
 
   return (
     <div> 
-      <Header></Header>
+      {/* <Header></Header> */}
 
       <div className='container mx-auto mt-20 xsm:w-fit px-5 xsm:px-0' >
         <img src="/assets/images/hero_sec_img.png" alt="hero_sec_image_bg" style={{userSelect:'none', zIndex:'-1'}} className="absolute w-[80%] top-[-20%] right-0"/>
@@ -95,7 +95,7 @@ export default function LoginPage() {
           </form>
 
           <p className='mt-10' >Haven't Registered Yet?</p>
-          <p>Register <Link
+          <p  >Register <Link className=''
                             href="/register" 
                         >
                             Here

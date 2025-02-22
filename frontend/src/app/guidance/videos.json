@@ -1,0 +1,428 @@
+{
+    "videos": [
+      {
+        "id": 1,
+        "title": "Your First Period: What You Need to Know",
+        "category": "Menstruation",
+        "video_link": "https://youtu.be/SqnZnA3BpPY",
+        "description": "Worried about your first period? Know the signs and how to be prepared!"
+      },
+      {
+        "id": 2,
+        "title": "Menstruation: What To Expect",
+        "category": "Menstruation",
+        "video_link": "https://youtu.be/DBe7-PHRav8",
+        "description": "Curious about why periods happen and how your cycle works? Click the link below to understand the science behind menstruation!"
+      },
+      {
+        "id": 3,
+        "title": "The Menstrual Cycle",
+        "category": "Menstruation",
+        "video_link": "https://youtu.be/vXrQ_FhZmos",
+        "description": "Struggling to track your period or wondering if your cycle is normal? Tap the link to learn how to monitor and maintain a healthy cycle!"
+      },
+      {
+        "id": 4,
+        "title": "Common Period Problems",
+        "category": "Menstruation",
+        "video_link": "https://youtu.be/NtBVh06froU",
+        "description": "Experiencing cramps, mood swings, or fatigue? Discover what's normal and how to manage period symptoms effectively!"
+      },
+      {
+        "id": 5,
+        "title": "Period Hygiene: Tampons, Pads and Menstrual Cups",
+        "category": "Menstruation",
+        "video_link": "https://youtu.be/kmWbOC8Fbb0",
+        "description": "Confused about pads, tampons, or menstrual cups? Find the best period product for you by clicking here!"
+      },
+      {
+        "id": 6,
+        "title": "Nutrition & Lifestyle for a Healthy Period",
+        "category": "Menstruation",
+        "video_link": "https://youtu.be/eGKQd2ArFtI",
+        "description": "Want to reduce period pain and feel better? Check out the best foods and habits for a smoother cycle!"
+      },
+      {
+        "id": 7,
+        "title": "Common Period-Related Health Issues",
+        "category": "Menstruation",
+        "video_link": "https://youtu.be/VYSGDIq-HVA",
+        "description": "Irregular periods, heavy bleeding, or PCOS concerns? Learn when to take action and seek help!"
+      },
+      {
+        "id": 8,
+        "title": "Period Myths vs. Facts",
+        "category": "Menstruation",
+        "video_link": "https://youtu.be/Zrwzv3-SP7c",
+        "description": "Heard myths like 'you can't wash your hair on your period'? Bust common period misconceptions here!"
+      },
+      {
+        "id": 9,
+        "title": "When to See a Doctor?",
+        "category": "Menstruation",
+        "video_link": "https://youtu.be/xRT2deFsRz8",
+        "description": "Not sure if your period problems need medical attention? Click here to know when it's time to consult a doctor!"
+      },
+      {
+        "id": 10,
+        "title": "PMDD vs PMS",
+        "category": "Menstruation",
+        "video_link": "https://youtu.be/VQuQzU02MIQ",
+        "description": "Wanna know what you are suffering from? Click the link below."
+      },
+      {
+        "id": 11,
+        "title": "Some Natural Tips for Periods",
+        "category": "Menstruation",
+        "video_link": "https://youtu.be/UHPsuS3wnCM",
+        "description": "Wanna say goodbye to irregular period cycles? Follow the link below!"
+      },
+      {
+        "id": 12,
+        "title": "The REALITY of WOMEN'S SELF DEFENSE",
+        "category": "Self-Defense",
+        "video_link": "https://youtu.be/6eToeyIls94",
+        "description": "Why should every woman learn self-defense? Empower yourself with knowledge and confidence!"
+      },
+      {
+        "id": 13,
+        "title": "5 Self-Defense Moves Every Woman Should Know",
+        "category": "Self-Defense",
+        "video_link": "https://youtu.be/SSC12rZdU6M",
+        "description": "Learn simple yet effective techniques to protect yourself in various situations."
+      },
+      {
+        "id": 14,
+        "title": "Situational Awareness & Prevention",
+        "category": "Self-Defense",
+        "video_link": "https://www.youtube.com/watch?v=SZ816eIMd0w",
+        "description": "Recognizing danger early can help you avoid threats before they escalate."
+      },
+      {
+        "id": 15,
+        "title": "Everyday Objects as Tools for Self-Defense",
+        "category": "Self-Defense",
+        "video_link": "https://youtu.be/65mJ_wfeIvQ",
+        "description": "Discover how common items can be utilized for your protection."
+      },
+      {
+        "id": 16,
+        "title": "Escaping Grabs & Holds",
+        "category": "Self-Defense",
+        "video_link": "https://youtu.be/Byhlir8rvhQ",
+        "description": "Master techniques to break free from common restraints."
+      },
+      {
+        "id": 17,
+        "title": "Understanding the Right to Private Defence | Self-Defense Laws in India Explained",
+        "category": "Self-Defense",
+        "video_link": "https://youtu.be/VYSGDIq-HVA",
+        "description": "Familiarize yourself with the legal rights and implications of self-defense actions."
+      }, {
+        "id": 18,
+        "title": "The Expectation Gap | Deborah Gilboa | TEDxCMU",
+        "category": "Family Affairs",
+        "video_link": "https://youtu.be/r-bUA7wvd1U",
+        "description": "Feeling stuck between your dreams and your parents' expectations? Click the link below to learn how to navigate this."
+      },
+      {
+        "id": 19,
+        "title": "Too much pressure of getting married? Follow this simple advice.",
+        "category": "Family Affairs",
+        "video_link": "https://youtu.be/GS-_lD-F794",
+        "description": "Tired of hearing 'When will you get married?' Stand up for your choices. Click below to know how."
+      },
+      {
+        "id": 20,
+        "title": "How Parents Influence Kids' Gender Roles",
+        "category": "Family Affairs",
+        "video_link": "https://youtu.be/v2eNZ1OwZPY",
+        "description": "Why should you do all the work? Watch this to challenge traditional gender roles."
+      },
+      {
+        "id": 21,
+        "title": "Sibling Conflict - Overcoming Comparison | Kyara Lalli | TEDxYouth@GranvilleIsland",
+        "category": "Family Affairs",
+        "video_link": "https://youtu.be/Z4cnqWLDxcs",
+        "description": "Tired of being compared to your siblings? Here's how to deal with it smartly. Click below."
+      },
+      {
+        "id": 22,
+        "title": "Strategies and Scripts to Start Setting Healthy Boundaries With Family - Terri Cole",
+        "category": "Family Affairs",
+        "video_link": "https://youtu.be/swSy6pdAS-0",
+        "description": "Do you always end up solving family problems? Learn to set boundaries here."
+      },
+      {
+        "id": 23,
+        "title": "Why Don't Indian Families Give Women Privacy?",
+        "category": "Family Affairs",
+        "video_link": "https://youtu.be/sPKKpPh3cAg",
+        "description": "Wish your family would trust you more? Here's how to handle strict parents."
+      },
+      {
+        "id": 24,
+        "title": "Women's finance | How to obtain financial independence and success",
+        "category": "Family Affairs",
+        "video_link": "https://youtu.be/UHPsuS3wnCM",
+        "description": "Want financial freedom but don't know where to start? Click below for inspiration."
+      },
+      {
+        "id": 25,
+        "title": "How to Deal with Family Problems by Sandeep Maheshwari",
+        "category": "Family Affairs",
+        "video_link": "https://youtu.be/FZ8_gpfpb90",
+        "description": "Struggling with family conflicts? Learn how to handle them effectively—click the link below."
+      },
+      {
+        "id": 26,
+        "title": "The Best Relationship Advice No One Ever Told You",
+        "category": "Love and Relationships",
+        "video_link": "https://youtu.be/_G6lnwIYirk",
+        "description": "Gain a deeper perspective on the truths about relationships and how to navigate them effectively."
+      },
+      {
+        "id": 27,
+        "title": "15 DATING RULES THAT CHANGED MY LIFE",
+        "category": "Love and Relationships",
+        "video_link": "https://youtu.be/QzBQTUwxxAc",
+        "description": "Discover key insights that can transform your approach to love and dating."
+      },
+      {
+        "id": 28,
+        "title": "How To Move On? - By Sandeep Maheshwari",
+        "category": "Love and Relationships",
+        "video_link": "https://youtu.be/ZoZT8-HqI64",
+        "description": "Healing is a personal journey that takes time. Be patient with yourself and trust that happiness is attainable."
+      },
+      {
+        "id": 29,
+        "title": "Break the Silence - Domestic Violence Awareness",
+        "category": "Love and Relationships",
+        "video_link": "https://youtu.be/VQuQzU02MIQ",
+        "description": "Domestic violence affects countless lives, but together, we can make a difference. Learn how to identify signs of abuse and find support."
+      },
+      {
+        "id": 30,
+        "title": "How to Beat Test Anxiety and Take on Exams Without Stress",
+        "category": "Academics",
+        "video_link": "https://youtu.be/65mJ_wfeIvQ",
+        "description": "Dealing with exam fear? Learn how to stay calm and focused by clicking the link below."
+      },
+      {
+        "id": 31,
+        "title": "How to Face Failure in Academics | Professor Errol D'Souza | TEDxYouth@JGIS",
+        "category": "Academics",
+        "video_link": "https://youtu.be/Byhlir8rvhQ",
+        "description": "Struggling with academic failure? Discover how to bounce back stronger."
+      },
+      {
+        "id": 32,
+        "title": "How to Study and ACE ANY EXAM",
+        "category": "Academics",
+        "video_link": "https://youtu.be/VYSGDIq-HVA",
+        "description": "Want to study smarter, not harder? Click the link below to learn the right way to prepare for exams."
+      },
+      {
+        "id": 33,
+        "title": "Discover Your Strengths and Set Career Goals",
+        "category": "Career",
+        "description": "Not sure which career path to take? Learn how to identify your strengths and set clear career goals for success.",
+        "video_link": "https://www.youtube.com/watch?v=cwwsezZPuTY"
+      },
+      {
+        "id": 34,
+        "title": "Find a Career You Genuinely Love",
+        "category": "Career",
+        "description": "Struggling to choose the right career? Discover how to find work that truly fulfills you.",
+        "video_link": "https://youtu.be/O3m14PVOq_g?si=Wq3k7QOdwr8vQzQ9"
+      },
+      {
+        "id": 35,
+        "title": "Continuous Learning and Adaptability",
+        "category": "Career",
+        "description": "Want to stay ahead in your career? Explore the importance of lifelong learning and adaptability in a changing job market.",
+        "video_link": "https://www.youtube.com/watch?v=DHGEd_2ezcc"
+      },
+      {
+        "id": 36,
+        "title": "Networking and Personal Branding",
+        "category": "Career",
+        "description": "Looking to grow professionally? Learn how to network effectively and build a strong personal brand to open new opportunities.",
+        "video_link": "https://www.youtube.com/watch?v=nmWXhuQMQtQ"
+      },
+      {
+        "id": 37,
+        "title": "Work-Life Balance and Career Growth",
+        "category": "Career",
+        "description": "Struggling to balance work and life? Discover strategies for maintaining well-being while progressing in your career.",
+        "video_link": "https://www.youtube.com/watch?v=lVPOjrcDAl4"
+      },
+      {
+        "id": 38,
+        "title": "Things Every Girl Should Know",
+        "category": "Empower Yourself",
+        "description": "Want to become the best version of yourself? Learn essential life lessons every girl should know.",
+        "video_link": "https://youtu.be/5DtDJABXkIo?si=-9VER_CVIzbQb3rC"
+      },
+      {
+        "id": 39,
+        "title": "Practice Self-Love",
+        "category": "Empower Yourself",
+        "description": "Struggling with self-acceptance? Discover how to embrace and love yourself unapologetically.",
+        "video_link": "https://youtu.be/UfkKZqG-WTs?si=JqZWuZfCEjkAG1-G"
+      },
+      {
+        "id": 40,
+        "title": "Know Your Worth",
+        "category": "Empower Yourself",
+        "description": "Never settle for less than you deserve. Learn how to recognize your value and stand strong.",
+        "video_link": "https://youtu.be/dtva9kAF1s4?si=jup5siC5vE7NqlmG"
+      },
+      {
+        "id": 41,
+        "title": "Build Confidence",
+        "category": "Empower Yourself",
+        "description": "Want to be more confident in life? Watch this guide on how to develop unshakable self-confidence.",
+        "video_link": "https://youtu.be/LTA9bwp-RrU?si=7XBJQJ-NXnPXWL_T"
+      },
+      {
+        "id": 42,
+        "title": "Child Neglect and Healing",
+        "category": "Empower Yourself",
+        "description": "Healing from childhood neglect is possible. Learn how to overcome past wounds and grow stronger.",
+        "video_link": "https://youtu.be/5pzcRH665Lw?si=IiabNr7bbo8L2S5E"
+      },
+      {
+        "id": 43,
+        "title": "Looks Aren't Everything",
+        "category": "Empower Yourself",
+        "description": "Your beauty is more than skin deep. Discover why self-worth isn't just about appearance.",
+        "video_link": "https://youtu.be/KM4Xe6Dlp0Y?si=txjI2dAg7Pj2nBU3"
+      },
+      
+      {
+        "id": 4,
+        "title": "How to Overcome Emotional Abuse",
+        "category": "Understanding and Overcoming Abuse",
+        "video_link": "https://www.youtube.com/watch?v=HudtQri-v9c",
+        "description": "This video discusses strategies to overcome emotional abuse and provides valuable resources for further exploration and support."
+      },
+      {
+        "id": 5,
+        "title": "Overcoming Abuse: Real Stories of Healing and Resilience",
+        "category": "Understanding and Overcoming Abuse",
+        "video_link": "https://www.youtube.com/watch?v=SSIGcwksOCQ",
+        "description": "Featuring real stories of individuals who have faced abuse, this video offers insights into coping with triggers, navigating family dynamics, and finding paths to healing."
+      },
+        
+        
+        {
+          "id": 49,
+          "title": "Overcoming Trauma and Abuse: A Path to Recovery",
+          "category": "Understanding and Overcoming Abuse",
+          "video_link": "https://www.youtube.com/watch?v=-MWkDc2ILFE",
+          "description": "This video explores the transformative journey of healing from various forms of trauma and abuse, discussing steps like therapy, building support systems, and adopting self-care practices."
+        },
+        {
+          "id": 50,
+          "title": "Understanding and Overcoming Different Types of Abuse",
+          "category": "Understanding and Overcoming Abuse",
+          "video_link": "https://www.youtube.com/watch?v=Q4-fLb8aTBs",
+          "description": "Delving into the complex world of abuse, this video explores its many forms and impacts on individuals and relationships, offering guidance on navigating through these challenges."
+        },
+          {
+            "id": 51,
+            "title": "How to Find a Career You Genuinely Love",
+            "category": "Understanding and Overcoming Abuse",
+            "video_link": "https://www.youtube.com/watch?v=ZyzC6SQcnR0",
+            "description": "Know someone going through abuse? Learn how to provide the right support without causing more harm."
+          },
+          {
+            "id": 1,
+            "title": "Understanding Addiction - YouTube",
+            "description": "This video provides an introduction to the concept of addiction, explaining the science behind it and featuring interviews with individuals who have experienced different types of addiction.",
+            "link": "https://www.youtube.com/watch?v=HOXy1DL6Uw4",
+            "category": "Understanding Addiction"
+          },
+          {
+            "id": 2,
+            "title": "How an Addicted Brain Works - YouTube",
+            "description": "This video explains how addiction affects the brain, providing insights into the neurological processes involved in addictive behaviors.",
+            "link": "https://www.youtube.com/watch?v=RZ5LH634W8s",
+            "category": "Understanding Addiction"
+          },
+          {
+            "id": 3,
+            "title": "Understanding Addiction as a Disease (Wait21) - YouTube",
+            "description": "This video explores the science behind addiction, its impact on the brain, and preventive measures to reduce the risk of substance dependence.",
+            "link": "https://www.youtube.com/watch?v=-w8n9UOiBxE",
+            "category": "Understanding Addiction"
+          },
+          {
+            "id": 52,
+            "title": "What Causes Addiction, and Why Is It So Hard to Treat? - Judy Grisel",
+            "category": "Understanding Addiction",
+            "video_link": "https://www.youtube.com/watch?v=hBC7i-vHWsU",
+            "description": "Addiction can affect anyone. Learn the truth about substance abuse and how it impacts lives."
+          },
+          {
+            "id": 53,
+            "title": "See Me Differently: Real Stories from Women in Recovery",
+            "category": "Understanding Addiction",
+            "video_link": "https://www.youtube.com/watch?v=lF0WuXGtQP0",
+            "description": "Recovery is possible. Hear real-life stories of people who overcame addiction and rebuilt their lives."
+          },
+          {
+            "id": 54,
+            "title": "General Guide on Filing e-FIR/Online Police Complaint",
+            "category": "Online FIR",
+            "video_link": "https://www.youtube.com/watch?v=GKvaPCT3B98",
+            "description": "A step-by-step guide on how to file an e-FIR or an online police complaint in India."
+          },
+          {
+            "id": 55,
+            "title": "How to File an Online FIR or Criminal Complaint",
+            "category": "Online FIR",
+            "video_link": "https://www.youtube.com/watch?v=--Fh4VQOk3M",
+            "description": "A comprehensive tutorial on filing an online FIR or criminal complaint, covering necessary steps and documentation."
+          },
+          {
+            "id": 56,
+            "title": "How To File Online FIR In Delhi For Theft",
+            "category": "Online FIR",
+            "video_link": "https://www.youtube.com/watch?v=DwvS8yRu4jE",
+            "description": "A complete guide on filing an online FIR for theft cases in Delhi."
+          },
+          {
+            "id": 57,
+            "title": "How to File FIR Online in MP Police",
+            "category": "Online FIR",
+            "video_link": "https://www.youtube.com/watch?v=-2EKJ_vU84k",
+            "description": "Detailed instructions on filing an online FIR in Madhya Pradesh using the official portal."
+          },
+        
+        
+          {
+            "id": 58,
+            "title": "Register FIR Online for Stolen Vehicles in Karnataka",
+            "category": "Online FIR",
+            "video_link": "https://www.youtube.com/watch?v=qp4WdKXnOrU",
+            "description": "Find out how to file an FIR online for stolen vehicles in Karnataka, including necessary details."
+          },
+          {
+            "id": 59,
+            "title": "How to Register Online FIR for Lost Passport | E-Lost Report",
+            "category": "Online FIR",
+            "video_link": "https://www.youtube.com/watch?v=Jx_6WO5QzGg",
+            "description": "Step-by-step process for reporting a lost passport online and obtaining an e-lost report."
+          },
+          {
+            "id": 60,
+            "title": "What To Do Once An E-FIR/Online Police Complaint Is Filed?",
+            "category": "Online FIR",
+            "video_link": "https://www.youtube.com/watch?v=K4Tker981n8",
+            "description": "Understand the next steps after filing an e-FIR, including follow-ups and legal proceedings."
+          }
+    ]
+}

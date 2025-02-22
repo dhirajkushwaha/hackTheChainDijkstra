@@ -112,7 +112,7 @@ export default function PostsPage() {
   return (
     <div  >
 
-      <Header></Header>
+      {/* <Header></Header> */}
 
       <div className='mx-auto lg:w-[800px] ' >
 
