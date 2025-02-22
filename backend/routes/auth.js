@@ -3,6 +3,7 @@ const express = require('express');
 const User = require('../models/User');
 const { generateToken } = require('../utils/jwt');
 const router = express.Router();
+require('dotenv').config();
 
 const authMiddleware = require('../middleware/auth')
 
@@ -10,6 +11,13 @@ const authMiddleware = require('../middleware/auth')
 router.post('/register', async (req, res) => {
   try {
     const { username, email, password } = req.body;
+
+    const existingUser = await User.findOne({ email });
+    if (existingUser) {
+      return res.status(400).json({ error: 'User already exists' });
+    }
+
+
     const user = new User({ username, email, password });
     await user.save();
     const token = generateToken(user._id);
@@ -26,7 +34,7 @@ router.post('/register', async (req, res) => {
     res.status(400).json({ error: error.message });
   }
 });
-
+ 
 // Login
 router.post('/login', async (req, res) => {
   try {
@@ -38,7 +46,7 @@ router.post('/login', async (req, res) => {
     const token = generateToken(user._id);
 
     // Set token in a cookie
-    res.cookie('token', token, {
+    res.cookie('token', token, {  
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
       maxAge: 3600000, // 1 hour
@@ -49,6 +57,8 @@ router.post('/login', async (req, res) => {
     res.status(400).json({ error: error.message });
   }
 });
+
+
 
 // Logout
 router.post('/logout', (req, res) => {
@@ -69,5 +79,6 @@ router.get('/me', authMiddleware, async (req, res) => {
   });
 
 
+  
 
 module.exports = router;
