@@ -69,7 +69,7 @@ export default function ResourcePage() {
   return (
     <div className="p-6 z-0">
       {/* Category Selection Modal */}
-      <Dialog open={isDialogOpen} onClose={() => {}} className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+      <Dialog open={isDialogOpen} onClose={() => {}} className="fixed inset-0 flex items-center justify-center  bg-black bg-opacity-50">
         <Dialog.Panel className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full text-center relative">
           <Dialog.Title className="text-xl font-bold mb-4">Select at least one category</Dialog.Title>
           <div className="flex flex-wrap gap-2 justify-center mb-4">
@@ -96,7 +96,7 @@ export default function ResourcePage() {
       {/* Additional Buttons on the Right Side */}
       {isDialogOpen && (
         <div className="fixed left-4 z-10  top-1/2 transform -translate-y-1/2 gap-5 flex flex-col space-y-4">
-          <button className="bg-gray-300 hover:bg-gray-400 text-black font-semibold px-4 py-2 -rotate-90 rounded-lg shadow-lg"
+          <button className="bg-gray-300 hover:bg-gray-400 text-black font-semibold px-4 py-2 -rotate-90 rounded-lg shadow-lg mb-12"
           onClick={() => {
             const link = document.createElement("a");
             link.href = "./merged.pdf"; // Replace with your actual file path
@@ -105,13 +105,13 @@ export default function ResourcePage() {
             link.click();
             document.body.removeChild(link);
           }}>
-            Helpline
+            Rights
           </button>
           <button className="bg-gray-300 hover:bg-gray-400 text-black font-semibold px-4 py-2 -rotate-90 rounded-lg shadow-lg">
-            Info
+            Woman Helpline
           </button>
           <button className="bg-gray-300 hover:bg-gray-400 text-black font-semibold px-4 py-2 -rotate-90 rounded-lg shadow-lg">
-            Exit
+            FIRs
           </button>
         </div>
       )}

@@ -58,7 +58,7 @@ export default function Home() {
           </div>
       </div>
 
-      <div className="guidance m-5 pt-24 pl-24 pr-24 rounded-2xl bg-gradient-to-r from-white to bg-[#FFE1FA] flex flex-col">
+      <div className="guidance m-5 pt-24 pl-24 pr-24 rounded-2xl bg-gradient-to-r from-white to bg-[#FFE1FA] flex flex-row">
 
           <div className="cleft w-full md:w-1/2 h-[70%] mb-10 md:mb-0">
             <img src="/assets/images/guide.png" alt="community_of_girls" className="w-full md:w-[80%] bg-blend-difference" />
