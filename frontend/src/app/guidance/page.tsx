@@ -69,7 +69,7 @@ export default function ResourcePage() {
   return (
     <div className="p-6 z-0">
       {/* Category Selection Modal */}
-      <Dialog open={isDialogOpen} onClose={() => {}} className="fixed inset-0 flex items-center justify-center  bg-black bg-opacity-50">
+      <Dialog open={isDialogOpen} onClose={() => {}} className="fixed inset-0 flex items-center justify-center  bg-black bg-opacity-50" style={{zIndex:"100"}} >
         <Dialog.Panel className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full text-center relative">
           <Dialog.Title className="text-xl font-bold mb-4">Select at least one category</Dialog.Title>
           <div className="flex flex-wrap gap-2 justify-center mb-4">
