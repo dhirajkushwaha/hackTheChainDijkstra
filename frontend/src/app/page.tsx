@@ -36,9 +36,13 @@ export default function Home() {
           <div className="cright w-full md:w-[50%] flex flex-col gap-12">
             <h2 className="text-4xl font-semibold poly">A Girls-Only Community</h2>
             <h3 className=" text-lg">Welcome to a women-only space built just for you! Our community is designed to be a secure, empowering, and judgment-free environment where women from all backgrounds can connect, share their thoughts, seek support, and explore opportunities without fear or hesitation.</h3>
-            <button className="bg-black text-white inline-block px-7 py-3 w-fit rounded-3xl poly md:self-start self-center ">
-              Connect
-            </button>
+            
+            <Link href="./community" >
+            
+              <button className="bg-black text-white inline-block px-7 py-3 w-fit rounded-3xl poly md:self-start self-center ">
+                Connect
+              </button>
+            </Link>
           </div>
 
           
@@ -47,9 +51,14 @@ export default function Home() {
           <div className="cleft flex flex-col gap-12 w-full md:w-1/2 mt-10">
             <h2 className="text-4xl font-semibold poly">Need Someone to Talk To?</h2>
             <h3 className=" text-lg">We understand that sometimes, all you need is a listening ear and the right guidance. Our consultancy services connect you with compassionate and experienced consultants who can help you navigate your thoughts, feelings, and challenges.</h3>
-            <button className="bg-[#FF00BF] text-white inline-block px-7 py-3 w-fit rounded-3xl poly md:self-start self-center">
-              Explore
-            </button>
+            
+            <Link href="/consultancy">
+              <button className="bg-[#FF00BF] text-white inline-block px-7 py-3 w-fit rounded-3xl poly md:self-start self-center">
+                Explore
+              </button>
+            
+            </Link>
+            
           </div>
 
 
@@ -68,9 +77,13 @@ export default function Home() {
           <div className="cright w-full md:w-[50%] flex flex-col gap-12 text-center md:text-left">
             <h2 className="text-4xl font-semibold poly">Looking for the Right Guidance?</h2>
             <h3 className=" text-lg">Our Guidance Page is designed to help you find the support and advice you need. We understand that every individual faces unique challenges, which is why we’ve created a simple way to get personalized recommendations.</h3>
-            <button className="bg-black text-white inline-block px-7 py-3 w-fit rounded-3xl poly self-center md:self-start">
-            Explore
-            </button>
+            
+            <Link href="/guidance" >
+              <button className="bg-black text-white inline-block px-7 py-3 w-fit rounded-3xl poly self-center md:self-start">
+              Explore
+              </button>
+            
+            </Link>
           </div>
       </div>
       <div className="consultant m-5 pt-24 pl-[7rem] pr-24 rounded-2xl bg-gradient-to-r flex flex-col md:flex-row justify-center items-center text-center md:text-left">

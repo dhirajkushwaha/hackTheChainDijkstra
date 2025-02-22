@@ -90,31 +90,51 @@ export default function ResourcePage() {
           >
             Next
           </button>
-        </Dialog.Panel>
-      </Dialog>
-
-      {/* Additional Buttons on the Right Side */}
       {isDialogOpen && (
-        <div className="fixed left-4 z-10  top-1/2 transform -translate-y-1/2 gap-5 flex flex-col space-y-4">
-          <button className="bg-gray-300 hover:bg-gray-400 text-black font-semibold px-4 py-2 -rotate-90 rounded-lg shadow-lg mb-12"
+        <div className="fixed left-4   top-1/2 transform -translate-y-1/2 gap-10 flex flex-col space-y-4" style={{zIndex:"100"}} >
+          <button className="bg-gray-300 hover:bg-gray-400 text-black font-semibold px-4 py-2 -rotate-90 rounded-lg shadow-lg "
           onClick={() => {
             const link = document.createElement("a");
             link.href = "./merged.pdf"; // Replace with your actual file path
-            link.download = "sample.pdf"; // Name of the downloaded file
+            link.download = "./sample.pdf"; // Name of the downloaded file
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
           }}>
             Rights
+          </button> 
+
+
+
+          <button className="bg-gray-300 hover:bg-gray-400 text-black font-semibold px-4 py-2 -rotate-90 rounded-lg shadow-lg  "
+          onClick={() => {
+            const link = document.createElement("a");
+            link.href = "./merged.pdf"; // Replace with your actual file path
+            link.download = "./helpline numbers.pdf"; // Name of the downloaded file
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          }}>
+             Helpline
           </button>
-          <button className="bg-gray-300 hover:bg-gray-400 text-black font-semibold px-4 py-2 -rotate-90 rounded-lg shadow-lg">
-            Woman Helpline
-          </button>
-          <button className="bg-gray-300 hover:bg-gray-400 text-black font-semibold px-4 py-2 -rotate-90 rounded-lg shadow-lg">
-            FIRs
+          
+          <button className="bg-gray-300 hover:bg-gray-400 text-black font-semibold mt-10 px-4 py-2 -rotate-90 rounded-lg shadow-lg  "
+          onClick={() => {
+            const link = document.createElement("a");
+            link.href = "./merged.pdf"; // Replace with your actual file path
+            link.download = "./fir_theme.pdf"; // Name of the downloaded file
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          }}>
+             FIRs
           </button>
         </div>
       )}
+        </Dialog.Panel>
+      </Dialog>
+
+      {/* Additional Buttons on the Right Side */}
 
       {/* Video Cards Display */}
       {!isDialogOpen && (
